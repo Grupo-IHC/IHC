@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat';
+    background-color: #F6F4F3;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+header{
+    display: flex;
+    min-height: 60px;
+    justify-content: space-between;
+    background-color: #F6F4F3;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+.nombreEmpresa{
+    position: relative;
+    left: -40px;
+}
+
+.logo-img{
+    width: 128px;
+    height: 93px;
+    margin-left: 100px;
+}
+nav{
+    margin-right: 100px;
+}
+nav a{
+    -webkit-text-stroke: 1px  #000;
+    padding: 15px;
+}
+
+nav a:hover{
+
+    color: #FF7000;
+    -webkit-text-stroke: 1px  #FF7000;
+}
+
+@media (max-width:1321px){
+    
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        margin: 0;
+        padding: 10px 0px;
+    }
+}
+
+@media (max-width:935px){
+    
+    .header{
+        flex-direction: column;
+    }
+    .logo{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .nav{
+        margin: 0;
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+    .nav-link{
+        position: relative;
+        display: grid;
+        place-items: center; 
+    }
+}
+
+#carrito{
+    font-size: 1.5em;
+}
+
+#login{
+    font-size: 1.5em;
+}
+
+/* Estilos para el slider */
+.slider {
+    background-color: #D1C8C1;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    width: 100%;
+    display: none;
+}
+
+.slide img {
+    height: 650px;
+    width: 100%;
+}
+
+.slide-image {
+    position: relative; /* Para que los elementos hijos se posicionen en relación con este contenedor */
+}
+
+.slide-image::after {
+    content: "INKA - DEJA TU HUELLA EN CADA PÁGINA"; /* El texto que deseas mostrar */
+    font-family: 'Russo One';
+    position: absolute;
+    width: 500px;
+    top: 150px; /* Ajusta la posición vertical según tus necesidades */
+    left: 100px; /* Ajusta la posición horizontal según tus necesidades */
+    padding: 10px; /* Espaciado interno del texto */
+    font-size: 55px; /* Tamaño de fuente del texto */
+    z-index: 2; /* Para que el texto esté por encima de la imagen */
+}
+
+.slide:nth-child(1) .slide-image::after {
+    color: #FFFFFF; /* Cambia el color de texto para la primera imagen */
+}
+
+/* Estilos para la segunda imagen del slider */
+.slide:nth-child(2) .slide-image::after {
+
+    color: #bebda9; /* Cambia el color de texto para la segunda imagen */
+}
+
+/* Estilos para la tercera imagen del slider */
+.slide:nth-child(3) .slide-image::after {
+    color: #272e27; /* Cambia el color de texto para la tercera imagen */
+}
+
+.slider-controls {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    z-index: 1;
+}
+
+.slider-controls i {
+    color: #8383834f;
+    font-size: 56px;
+    cursor: pointer;
+}
+
+.slider-controls i:hover{
+    color: #e0b8b8;
+}
+
+/* Estilos para la sección "conteiner-nosotros" */
+.conteiner-nosotros {
+    background-color: #D1C8C1;
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar el contenido horizontalmente */
+}
+
+/* Estilos para el texto dentro de "conteiner-nosotros" */
+.conteiner-nosotros--text {
+    font-family: 'IBM Plex Mono';
+    font-size: 22px; /* Tamaño de fuente */
+    margin: 30px 0; /* Espaciado en la parte superior e inferior */
+    line-height: 40px;
+}
+
+/* Estilos para las imágenes dentro de "conteiner-nosotros" */
+.conteiner-nosotros--img img {
+    max-width: 100%; /* Ajustar el tamaño de las imágenes al ancho del contenedor */
+    margin: 20px; /* Espaciado entre las imágenes */
+}
+
+.product-list{
+    background-color: #D1C8C1;
+    border-radius: 30px;
+    display: flex;
+    width: 1104px;
+    height: 813px;
+}
+
+.product-item{
+    background-color: #fff;
+    border-radius: 30px;
+    width: 300px;
+    height: 290px;
+}

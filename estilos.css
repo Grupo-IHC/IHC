@@ -20,6 +20,8 @@ header{
     background-color: #F6F4F3;
     align-items: center;
     padding: 15px;
+    width: auto;
+    height: 142px;
 }
 
 .logo{
@@ -184,19 +186,4 @@ nav a:hover{
 .conteiner-nosotros--img img {
     max-width: 100%; /* Ajustar el tamaño de las imágenes al ancho del contenedor */
     margin: 20px; /* Espaciado entre las imágenes */
-}
-
-.product-list{
-    background-color: #D1C8C1;
-    border-radius: 30px;
-    display: flex;
-    width: 1104px;
-    height: 813px;
-}
-
-.product-item{
-    background-color: #fff;
-    border-radius: 30px;
-    width: 300px;
-    height: 290px;
 }

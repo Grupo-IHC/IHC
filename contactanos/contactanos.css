@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat';
+    background-color: #F6F4F3;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+header{
+    display: flex;
+    min-height: 60px;
+    justify-content: space-between;
+    background-color: #F6F4F3;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+.nombreEmpresa{
+    position: relative;
+    left: -40px;
+}
+
+.logo-img{
+    width: 128px;
+    height: 93px;
+    margin-left: 100px;
+}
+nav{
+    margin-right: 100px;
+}
+nav a{
+    -webkit-text-stroke: 1px  #000;
+    padding: 15px;
+}
+
+nav a:hover{
+
+    color: #FF7000;
+    -webkit-text-stroke: 1px  #FF7000;
+}
+
+@media (max-width:1321px){
+    
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        margin: 0;
+        padding: 10px 0px;
+    }
+}
+
+@media (max-width:935px){
+    
+    .header{
+        flex-direction: column;
+    }
+    .logo{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .nav{
+        margin: 0;
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+    .nav-link{
+        position: relative;
+        display: grid;
+        place-items: center; 
+    }
+}
+
+#carrito{
+    font-size: 1.5em;
+}
+
+#login{
+    font-size: 1.5em;
+}
+.contactanos__container{
+    padding: 80px 170px;
+}
+.contactanos__1{
+    padding-bottom: 83px;
+}
+.contactanos__1_title{
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 78.02px;
+}
+.contactanos__1_subtitle{
+    padding: 20px 0 20px 0;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.26px;
+}
+.contactanos__1_description{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.38px;
+    text-align: justify;
+}
+.contactanos__2{
+    display: flex;
+}
+.form-input{
+    width: 100%;
+    position: relative;
+    padding-bottom: 8px;
+}
+input{
+    background-color: rgba(209, 200, 193, 1);
+    border-radius: 18px;
+    border: 2px solid transparent;
+    color:rgba(43, 30, 12, 0.72);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.26px;
+    padding: 10px 21px;
+    box-sizing: border-box;
+    width: 874px;
+}
+textarea{
+    background-color: rgba(209, 200, 193, 1);
+    border-radius: 18px;
+    border: 2px solid transparent;
+    color:rgba(43, 30, 12, 0.72);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.26px;
+    padding: 10px 21px;
+    box-sizing: border-box;
+    width: 874px;
+    height: 235px;
+}
+.btn-subir{
+    border-radius: 10px;
+    background: #D1C8C1;
+    border: 2px solid transparent;
+    color:rgba(43, 30, 12, 0.72);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29.26px;
+    padding: 14px 63px;
+}
+.icon-subir{
+    position: absolute;
+    left: 29px;
+    top: 14px;
+}
+.contactanos__2_img{
+    position: relative;
+    width: 417px;
+    height: 386px;
+    left: 220px;
+    bottom: 50px;
+}
+.btn-enviar{
+    border-radius: 50px;
+    background: #31241E;
+    border: 2px solid transparent;
+    color:#fff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29.26px;
+    padding: 20px 82px;
+    position: relative;
+    top: 43px;
+}
+
+
+
+

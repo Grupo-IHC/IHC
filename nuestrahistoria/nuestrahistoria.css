@@ -1,0 +1,56 @@
+
+.historia{
+    display: flex; 
+}
+
+.historia img {
+  position: relative;
+    width: 32%;
+    text-align: center;
+    margin:3%;
+    margin-left: 100px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.historia h1,.historia h2,.historia h3{
+  position: relative;
+    margin-top: 20px;
+    
+}
+
+.historia h1{
+  font-size: 50px;
+  margin-bottom: 80px;
+}
+
+.historia h3{
+  font-size: 20px;
+  line-height: 35px;
+  margin-bottom: 100px;
+}
+
+.historia .inf {
+    position: relative;
+    padding: 40px;
+    width: 55%;
+    
+    
+}
+
+.historia .btn {
+    position: relative;
+    left: 85%;
+    margin: 10px;
+    display: inline-block;
+    padding: 10px 20px; 
+    background-color: #31241E; 
+    color: #fff; 
+    text-decoration: none; 
+    border: 1px solid #31241E;
+    border-radius: 20px; 
+    text-align: center; 
+    cursor: pointer; 
+    margin-left: auto; 
+}
+

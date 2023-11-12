@@ -1,0 +1,64 @@
+
+.automatico, .madera{
+    margin-top: 40px;
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 40px;
+}
+
+.automatico img {
+    position: relative;
+    left: 10%;
+    width: 36%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.automatico .inf {
+    position: absolute;
+    left: 55%;
+    flex: 2;
+    width: 43%;
+    
+}
+
+.automatico p,.madera p{
+    margin-top: 25px;;
+    width: 85%;
+    font-size: 22px;
+}
+
+.madera img {
+    position: relative;
+    left: 55%;
+    width: 36%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.madera .inf {
+    position: absolute;
+    flex: 2;
+    left: 10%;
+    width: 43%;
+}
+
+.automatico .VerMas ,.madera .VerMas {
+    position: relative;
+    left:70%;
+    font-family: Montserrat;
+    margin-top: 10px;
+    background-color: #31241E;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.automatico .VerMas:hover ,.madera .VerMas:hover{
+    background-color: #5c4940;
+    color: #fff;
+}

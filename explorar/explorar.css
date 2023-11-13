@@ -111,3 +111,8 @@ img {
 .product-personalizar:hover {
     background-color: #5c4940;
 }
+
+.nav-link.explorar{
+    color: #FF7000;
+    -webkit-text-stroke: 1px  #FF7000;
+}

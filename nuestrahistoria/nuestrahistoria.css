@@ -1,4 +1,3 @@
-
 .historia{
     display: flex; 
 }
@@ -38,7 +37,7 @@
     
 }
 
-.historia .btn {
+.historia .boton {
     position: relative;
     left: 85%;
     margin: 10px;
@@ -52,5 +51,15 @@
     text-align: center; 
     cursor: pointer; 
     margin-left: auto; 
+}
+
+.historia .boton:hover{
+  background-color: #5c4940;
+  color: #fff;
+}
+
+.nav-link.nosotros{
+  color: #FF7000;
+  -webkit-text-stroke: 1px  #FF7000;
 }
 

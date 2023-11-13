@@ -57,13 +57,11 @@ nav{
     margin-right: 100px;
 }
 nav a{
-    
     -webkit-text-stroke: 1px  #000;
     padding: 15px;
 }
 
-nav a:hover{
-
+.nav-link:hover{
     color: #FF7000;
     -webkit-text-stroke: 1px  #FF7000;
 }
@@ -132,3 +130,16 @@ nav a:hover{
     color: #ff6f00ad; /* Cambia el color a azul (código de color en hexadecimal) */
 }
 
+
+@keyframes mostrar {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.aparecer {
+    animation: mostrar 1s ease;
+}

@@ -36,7 +36,6 @@ input{
     font-size: 24px;
     line-height: 29.26px;
     padding: 10px 21px;
-    box-sizing: border-box;
     width: 874px;
 }
 textarea{

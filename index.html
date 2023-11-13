@@ -22,6 +22,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="estilos.css">
     <title>INKA</title>
+    <style>
+      .nav-link.inicio{
+          color: #FF7000;
+          -webkit-text-stroke: 1px  #FF7000;
+      }
+    </style>
 </head>
 
 <body>
@@ -30,17 +36,17 @@
             <img src="img/Logo.png" alt="sellos" class="logo-img">
             <h2 class="nombreEmpresa">INKA</h2>
         </div>
-        <nav>
-            <a href="index.html" class="nav-link">INICIO</a>
-            <a href="explorar/explorar.html" class="nav-link">EXPLORAR</a>
-            <a href="sellos/sellos.html" class="nav-link">NUESTROS PRODUCTOS</a>
-            <a href="nuestrahistoria/nuestrahistoria.html" class="nav-link">SOBRE NOSOTROS</a>
-            <a href="contactanos/contactanos.html" class="nav-link">CONTACTANOS</a>
-            <a href="onlineShop/onlineShop.html" class="nav-link"><i id="carrito" class="bi bi-cart4"></i></a>
-            <a href="" class="nav-link"><i id="login" class="bi bi-person-circle"></i></a>
+        <nav>       
+            <a href="index.html" class="nav-link inicio">INICIO</a>
+            <a href="explorar/explorar.html" class="nav-link explorar">EXPLORAR</a>
+            <a href="sellos/sellos.html" class="nav-link productos">NUESTROS PRODUCTOS</a>
+            <a href="nuestrahistoria/nuestrahistoria.html" class="nav-link nosotros">SOBRE NOSOTROS</a>
+            <a href="contactanos/contactanos.html" class="nav-link contactanos">CONTACTANOS</a>
+            <a href="onlineShop/onlineShop.html" class="nav-link carrito"><i id="carrito" class="bi bi-cart4"></i></a>
+            <a href="Login/Login.html" class="nav-link login"><i id="login" class="bi bi-person-circle"></i></a>
         </nav>
     </header>
-    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide aparecer">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -66,7 +72,7 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>   
-    <div class="conteiner-nosotros"> 
+    <div class="conteiner-nosotros aparecer"> 
         <div class="conteiner-nosotros--text">
             <p>
                 Nuestros sellos son mucho más que simples marcas en papel; 

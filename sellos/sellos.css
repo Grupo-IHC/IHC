@@ -62,3 +62,8 @@
     background-color: #5c4940;
     color: #fff;
 }
+
+.nav-link.productos{
+    color: #FF7000;
+    -webkit-text-stroke: 1px  #FF7000;
+}

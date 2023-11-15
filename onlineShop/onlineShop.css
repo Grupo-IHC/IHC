@@ -38,31 +38,17 @@ h3{
 .shop__2_compra{
     width: 1050px;
     height: 651px;
-    border-radius: 25px;
-    padding:40px 40px;
-    background: #D9D9D9;
 }
 .shop__2_container{
-    display: flex;
     border-radius: 25px;
     background: #D1C8C1;
     padding: 20px 40px;
 }
+.shop__2_subcontainer{
+    display: flex;
+}
 .img-logo_edit-delete{
     margin: 0 53px 0 14px;
-}
-.form-delete_input{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
-    top:20px
-}
-.bi-trash3{
-    color: red;
-}
-.form-edit{
-    font-size: 25px;  
 }
 .name-color{
     display: flex;
@@ -72,33 +58,35 @@ h3{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    justify-content: space-between;
+    margin-bottom: 24px;
 }
 .bi-square-fill{
     color: red;
     font-size: 25px;
     position: relative;
     top: 8px;
+    margin: 0 7px;
 }
 .detalle-sello{
-    width: 487px;
-}
-.resume-precio{
+    width: auto;
     display: flex;
-    justify-content: space-between;
-    color: #2B1E0C;
-    font-family: Montserrat;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin: 13px 0;
+}
+th,td{
+    padding: 10px;
+    text-align: center;
+}
+.rowModificated{
+    padding: 0;
+}
+.sellos__2_icon{
+    text-align: center;
 }
 .shop__2_resumen{   
     margin-left: 43px; 
     display: flex;
     flex-direction: column;
     justify-content: space-between; 
+    width: auto;
 }
 .shop__2_resumen-container{
     padding: 20px;
@@ -107,8 +95,6 @@ h3{
     background: #D9D9D9;
 }
 .shop__2_resumen-medio{
-    height: 250px;
-    padding:20px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -123,10 +109,14 @@ h3{
     width: 100%;
     justify-content: space-between;
 }
+.shop__2_resumen-online:nth-child(2){
+    margin-bottom: 19px;
+}
 .shop__2_resumen-logos{
     display: flex;
     justify-content: space-between;
     width: 150px;
+    margin-left: 20px;
 }
 .shop__2_resumen-pagos{
     border-radius: 10px;
@@ -160,8 +150,26 @@ h3{
     padding: 20px 82px;
     cursor: pointer;
 }
-
 .nav-link.carrito{
     color: #FF7000;
     -webkit-text-stroke: 1px  #FF7000;
+}
+.sellos__2_cantidad-edit{
+    display: flex;
+}
+.sellos__2_input input{
+    border-radius: 9px;
+    border: 2px solid transparent;
+    text-align: center;
+    color:rgba(43, 30, 12, 0.72);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 5px 5px;
+    background: #D9D9D9;
+    width: 60px;
+    height: 32px;
+}
+.sellos__2_input{
+    margin: 0 6px;
 }

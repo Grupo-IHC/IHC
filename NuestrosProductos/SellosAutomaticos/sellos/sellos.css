@@ -21,7 +21,7 @@ h3{
 }
 .sellos__1_title{
     color: #000;
-    font-size: 50px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 400;
     line-height: 75px;
@@ -176,4 +176,21 @@ h3{
     margin-right: 42px;
 }
 
+.botonpage{
+    margin-right: 20px;
+}
 
+.nav-link.productos{
+    color: #FF7000;
+    -webkit-text-stroke: 1px  #FF7000;
+}
+
+.bi-caret-left-fill{
+    color: #31241E;
+    cursor: pointer;
+}
+
+.bi-caret-left-fill:hover{
+    cursor: pointer;
+    color: #5c4940;
+}

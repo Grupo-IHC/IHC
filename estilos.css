@@ -104,9 +104,9 @@ nav a{
 }
 
 /* Estilos generales para el texto superpuesto en el carrusel */
-#carouselExampleDark .carousel-item:nth-child(1)::after,
-#carouselExampleDark .carousel-item:nth-child(2)::after,
-#carouselExampleDark .carousel-item:nth-child(3)::after {
+#carouselExampleDarkindex .carousel-item:nth-child(1)::after,
+#carouselExampleDarkindex .carousel-item:nth-child(2)::after,
+#carouselExampleDarkindex .carousel-item:nth-child(3)::after {
     content: "INKA - DEJA TU HUELLA EN CADA PÁGINA";
     font-family: 'Russo One';
     position: absolute;
@@ -118,15 +118,15 @@ nav a{
     z-index: 2;
 }
 
-#carouselExampleDark .carousel-item:nth-child(1)::after {
+#carouselExampleDarkindex .carousel-item:nth-child(1)::after {
     color: #ff6f00ad /* Cambia el color a rojo (código de color en hexadecimal) */
 }
 
-#carouselExampleDark .carousel-item:nth-child(2)::after {
+#carouselExampleDarkindex .carousel-item:nth-child(2)::after {
     color: #ff6f00ad;
 }
 
-#carouselExampleDark .carousel-item:nth-child(3)::after {
+#carouselExampleDarkindex .carousel-item:nth-child(3)::after {
     color: #ff6f00ad; /* Cambia el color a azul (código de color en hexadecimal) */
 }
 
@@ -142,4 +142,22 @@ nav a{
 
 .aparecer {
     animation: mostrar 1s ease;
+}
+
+.botonpage {
+    font-family: Montserrat;
+    margin-top: 10px;
+    background-color: #31241E;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.botonpage:hover {
+    background-color: #5c4940;
 }

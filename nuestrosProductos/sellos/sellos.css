@@ -76,6 +76,7 @@ h3{
 .sellos__2_diseniooPrecio:nth-child(2) h3:nth-child(2){
     position: relative;
     left: 35%;
+    top:-8%;
 }
 .sellos__2_subcontainer2{
     padding: 17px 46px;
@@ -117,7 +118,7 @@ h3{
 }
 .sellos__2_img{
     position: relative;
-    margin-bottom: 30px;
+    top: 9%;
 }
 .flechaNextIcon{
     position: absolute;
